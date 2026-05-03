@@ -4,20 +4,15 @@
 
 # aurekai-wandb
 
-Aurekai integration surface for Wandb.
+Aurekai integration surface for Weights and Biases, including offline-safe experiment logging for manifests, model memory, SAE audits, semantic cache benchmarks, proof bundles, and release gates.
 
-Status: planned
-Type: data
+Status: active
+Type: data-ml
 
-## Core Template Set
+## Quick Start
 
-- doctor-deep
-- manifest-verify
-- model-memory-pack
-- sae-audit
-- semantic-cache-bench
-- proof-bundle-export
-- release-gate
+python3 -m pip install -r requirements.txt
+bash tests/validate-scripts.sh
 
 ## Canonical References
 
